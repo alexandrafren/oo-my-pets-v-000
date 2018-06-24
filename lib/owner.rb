@@ -73,7 +73,7 @@ class Owner
 
   def list_pets
     @pets.each do |pet|
-      puts pet
+      puts pet.name
     end
   end
 
