@@ -22,7 +22,7 @@ class Owner
   end
 
   def say_species
-    puts @say_species
+    puts @species 
   end
 
 end
