@@ -11,4 +11,8 @@ class Owner
     @@owners.count
   end
 
+  def self.clear
+    @@owners.clear
+  end
+  
 end
