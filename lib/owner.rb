@@ -21,4 +21,8 @@ class Owner
     @@all.clear
   end
 
+  def say_species
+    puts @say_species
+  end
+
 end
