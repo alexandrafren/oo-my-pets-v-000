@@ -25,13 +25,16 @@ class Owner
     return "I am a #{species}."
   end
 
-  def buy_fish
+  def buy_fish(name)
+    fish = Fish.new(name)
   end
 
-  def buy_cat
+  def buy_cat(name)
+    cat = Cat.new(name)
   end
 
-  def buy_dog
+  def buy_dog(name)
+    dog = Dog.new(name)
   end
 
 end
