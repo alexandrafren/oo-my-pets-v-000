@@ -4,11 +4,10 @@ class Owner
 
   def initialize
     @pets = {fishes:[], cats:[],dogs:[]}
-    @@owners << self
   end
 
-  def self.owner_count
-    @@owners.count
+  def self.save
+    @@owners << self
   end
 
   def self.clear
