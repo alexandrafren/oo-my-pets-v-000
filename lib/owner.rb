@@ -14,5 +14,5 @@ class Owner
   def self.clear
     @@owners.clear
   end
-
+  
 end
